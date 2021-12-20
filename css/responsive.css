@@ -1,0 +1,259 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 1020px;
+    }
+    .container-right {
+        position: absolute;
+        right: -2%;
+        top: 20%;
+        width: 90%;
+    }
+    .v-height{
+        height: 150vh;
+    }
+    .phone-bg {
+        position: absolute;
+        right: 0;
+        top: -95px;
+        z-index: 111;
+        width: 60%;
+    }
+
+    .container-right1 {
+        position: absolute;
+        right: -2%;
+        top: 32%;
+        width: 90%;
+    }
+    .v-height1{
+        height: 110vh;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 920px;
+    }
+    .d-none{
+        display: none;
+    }
+    .hero-text h1{
+        font-size: 50px;
+    }
+    .hero-image img{
+        width: 380px;
+    }
+    .about-image img{
+        width: 250px;
+    }
+    .about-text h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .container-right {
+        position: absolute;
+        right: -2%;
+        top: 12%;
+        width: 80%;
+        left: 5%;
+    }
+    .v-height{
+        height: 270vh;
+    }
+
+    .w-half{
+        width: 50%;
+        float: left;
+    }
+    .single-feature{ 
+        margin-bottom: 20px;
+    }
+    .phone-bg{
+        display: none;
+    }
+    .container-right1 {
+        position: absolute;
+        right: 0%;
+        top: 32%;
+        width: 90%;
+        left: 5%;
+    }
+    .v-height1{
+        height: 110vh;
+    }
+    .single-testimonial{
+        display: block;
+        text-align: center;
+    }
+    .testimonial-text{
+        margin-left: 0;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .container{
+        width: 420px;
+    }
+    .w-full{
+        width: 100%;
+        float: none;
+    }
+    .d-none{
+        display: none;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: -50px;
+        background-color: #27c4b9;
+        border-radius: 10px;
+    }
+    .mean-container .mean-bar {
+        margin-top: 51px;
+    }
+    .hero-text{
+        margin-top: 30px;
+    }
+    .hero-text h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .hero-image{
+        text-align: left;
+        margin-top: 30px;
+    }
+    .hero-image img{
+        width: 350px;
+    }
+    .about-image{
+        padding: 0 20px;
+        text-align: left;
+    }
+    .about-text{
+        padding:20px
+    }
+    .container-right {
+        position: absolute;
+        right: 0;
+        top: 8%;
+        width: 90%;
+        left: 0;
+    }
+    .v-height{
+        height: 300vh;
+    }
+    .feature-img{
+        text-align: center;
+    }
+    .feature-img img{
+        width: 150px;
+    }
+    .single-feature{
+        margin-bottom: 20px;
+    }
+    .container-right1 {
+        position: absolute;
+        right: 0;
+        top: 18%;
+        width: 70%;
+        left: 15%;
+    }
+    .v-height1{
+        height: 190vh;
+    }
+    .single-testimonial{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .testimonial-text{
+        margin-left: 0;
+    }
+    .testimonial-image img{
+        margin-bottom: 20px;
+    }
+    .phone-bg{
+        display: none;
+    }
+
+    .subscribe-text{
+        padding: 0 20px;
+    }
+    .subscribe-form{
+        padding: 0 20px;
+    }
+    .cta-btn{
+        text-align: left;
+    }
+.cta-margin{
+    margin-bottom: 20px;
+}
+    .w-half{
+        width: 50%;
+        float: left;
+    }
+
+    .footer-logo{
+        margin-bottom: 40px;
+    }
+    .footer-meta{
+        margin-top: 15px;
+    }
+    .footer-links{
+        margin-bottom: 40px;
+    }
+    .social-box span img{
+        width: 20px;
+    }
+
+    .message{
+        display: none;
+    }
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container{
+        width: 640px;
+    }
+    .container-right {
+        position: absolute;
+        right: 0;
+        top: 8%;
+        width: 100%;
+        left: 0;
+    }
+    .v-height{
+        height: 360vh;
+    }
+    .single-feature{
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .w-full{
+        width: 100%;
+        float: none;
+        margin: 0 15px;
+    }
+    .feature-img img{
+        width: 150px;
+    }
+
+ 
+}
